@@ -5,11 +5,6 @@
 </div>
 
 <div class="box">
-  <span>Eggs: </span>
-  <input type="text" [(ngModel)]="ingredientEgg">
-</div>
-
-<div class="box">
   <span>Vege: </span>
   <input type="text" [(ngModel)]="ingredientVege">
 </div>
@@ -20,7 +15,7 @@
 </div>
 
 <div *ngIf="isCheck" class="box">
-  Here are the dishes {{ dishName }}
+  {{ getMenu() }}
 </div>
 
 <div class="box">
