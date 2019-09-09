@@ -6,3 +6,9 @@
   width: 300px;
   border-color: cornflowerblue;
 }
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
